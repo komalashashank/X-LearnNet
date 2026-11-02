@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+xlearnnet-venv/
+
+# Data files
+data/raw/
+data/processed/
+data/output/
+*.csv
+*.parquet
+
+# Model files
+models/
+*.pkl
+*.joblib
+
+# Temporary files
+*.log
+.DS_Store
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
