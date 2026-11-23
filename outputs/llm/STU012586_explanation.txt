@@ -1,0 +1,52 @@
+**Prediction Summary**
+
+The student, STU012586, was predicted to fail the course with a probability of 0.8892 by the GraphSAGE model and 0.6796 by the Logistic Regression model. However, the actual test label is 0, indicating no course failure.
+
+**Academic Evidence**
+
+The student's academic profile shows:
+
+* GPA: 2.96 (higher than prior GPA: 2.9)
+* Attendance rate: 0.45 (calculated attendance rate: 0.7916666666666666, differing by 34.17 percentage points)
+* Assignment submission rate: 0.33
+* Average course grade: 71.0
+* LMS logins past month: 20
+* Video completion rate: 0.38
+* Total classes: 48
+* Classes attended: 38
+
+**Graph Explanation**
+
+The GNNExplainer feature masks show that the following features are important for the prediction:
+
+* forum_participation_count: 0.91095316
+* prior_gpa: 0.8602589
+* avg_course_grade: 0.8493212
+* program_level_encoded_Postgraduate: 0.844677
+* semester_encoded_2025-Fall: 0.8329827
+* assignment_submission_rate: 0.83080596
+* major_encoded_Computer Science: 0.82155144
+* major_encoded_Business: 0.81407136
+* avg_session_duration_minutes: 0.8135873
+* assessment_count: 0.8135526
+
+The GNNExplainer top edges show that the following assessment connections are important for the prediction:
+
+* Source node: STU012586, Target node: ASM-ENR0056564-FinalExam, Importance: 0.8649933
+* Source node: STU012586, Target node: ASM-ENR0056562-FinalExam, Importance: 0.86434937
+* Source node: STU012586, Target node: ASM-ENR0056563-Midterm, Importance: 0.86338526
+* Source node: STU012586, Target node: ASM-ENR0056562-Assignment, Importance: 0.86335516
+* Source node: STU012586, Target node: ASM-ENR0056564-Assignment, Importance: 0.8628636
+* Source node: STU012586, Target node: ASM-ENR0056563-FinalExam, Importance: 0.8628495
+* Source node: STU012586, Target node: ASM-ENR0056563-Assignment, Importance: 0.86257565
+* Source node: STU012586, Target node: ASM-ENR0056563-Quiz, Importance: 0.86246055
+* Source node: STU012586, Target node: ASM-ENR0056564-Midterm, Importance: 0.8624202
+* Source node: STU012586, Target node: ASM-ENR0056565-Assignment, Importance: 0.86234903
+
+**Data Quality**
+
+The attendance values do not match, with a discrepancy of 34.17 percentage points between the recorded attendance and the calculated attendance rate.
+
+**Recommended Support**
+
+Based on the data, it is recommended to investigate the attendance discrepancy and resolve it before making any further decisions. Additionally, the student's academic profile suggests that they may benefit from additional academic support to improve their course grade.

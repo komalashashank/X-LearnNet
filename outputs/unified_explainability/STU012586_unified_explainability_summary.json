@@ -1,0 +1,282 @@
+{
+  "model_performance": {
+    "logistic_regression": {
+      "accuracy": 0.6629,
+      "precision": 0.298,
+      "recall": 0.5829,
+      "f1": 0.3943,
+      "roc_auc": 0.6939,
+      "pr_auc": 0.334
+    },
+    "graphsage": {
+      "accuracy": 0.5857,
+      "precision": 0.2739,
+      "recall": 0.7268,
+      "f1": 0.3978,
+      "roc_auc": 0.6827,
+      "pr_auc": 0.3234
+    }
+  },
+  "llm_explanation": "**Prediction Summary**\n\nThe student, STU012586, was predicted to fail the course with a probability of 0.8892 by the GraphSAGE model and 0.6796 by the Logistic Regression model. However, the actual test label is 0, indicating no course failure.\n\n**Academic Evidence**\n\nThe student's academic profile shows:\n\n* GPA: 2.96 (higher than prior GPA: 2.9)\n* Attendance rate: 0.45 (calculated attendance rate: 0.7916666666666666, differing by 34.17 percentage points)\n* Assignment submission rate: 0.33\n* Average course grade: 71.0\n* LMS logins past month: 20\n* Video completion rate: 0.38\n* Total classes: 48\n* Classes attended: 38\n\n**Graph Explanation**\n\nThe GNNExplainer feature masks show that the following features are important for the prediction:\n\n* forum_participation_count: 0.91095316\n* prior_gpa: 0.8602589\n* avg_course_grade: 0.8493212\n* program_level_encoded_Postgraduate: 0.844677\n* semester_encoded_2025-Fall: 0.8329827\n* assignment_submission_rate: 0.83080596\n* major_encoded_Computer Science: 0.82155144\n* major_encoded_Business: 0.81407136\n* avg_session_duration_minutes: 0.8135873\n* assessment_count: 0.8135526\n\nThe GNNExplainer top edges show that the following assessment connections are important for the prediction:\n\n* Source node: STU012586, Target node: ASM-ENR0056564-FinalExam, Importance: 0.8649933\n* Source node: STU012586, Target node: ASM-ENR0056562-FinalExam, Importance: 0.86434937\n* Source node: STU012586, Target node: ASM-ENR0056563-Midterm, Importance: 0.86338526\n* Source node: STU012586, Target node: ASM-ENR0056562-Assignment, Importance: 0.86335516\n* Source node: STU012586, Target node: ASM-ENR0056564-Assignment, Importance: 0.8628636\n* Source node: STU012586, Target node: ASM-ENR0056563-FinalExam, Importance: 0.8628495\n* Source node: STU012586, Target node: ASM-ENR0056563-Assignment, Importance: 0.86257565\n* Source node: STU012586, Target node: ASM-ENR0056563-Quiz, Importance: 0.86246055\n* Source node: STU012586, Target node: ASM-ENR0056564-Midterm, Importance: 0.8624202\n* Source node: STU012586, Target node: ASM-ENR0056565-Assignment, Importance: 0.86234903\n\n**Data Quality**\n\nThe attendance values do not match, with a discrepancy of 34.17 percentage points between the recorded attendance and the calculated attendance rate.\n\n**Recommended Support**\n\nBased on the data, it is recommended to investigate the attendance discrepancy and resolve it before making any further decisions. Additionally, the student's academic profile suggests that they may benefit from additional academic support to improve their course grade.",
+  "student_id": "STU012586",
+  "actual_label": 0,
+  "lr_probability": 0.6795866863165116,
+  "lr_prediction": 1,
+  "lr_result": "False Positive",
+  "graphsage_probability": 0.8892014,
+  "graphsage_prediction": 1,
+  "graphsage_result": "False Positive",
+  "recorded_attendance": 0.45,
+  "calculated_attendance": 0.7916666666666666,
+  "attendance_discrepancy_percentage_points": 34.166666666666664,
+  "global_shap_top_features": [
+    {
+      "feature": "attendance_rate",
+      "mean_abs_shap": 0.037079677879779255
+    },
+    {
+      "feature": "assignment_submission_rate",
+      "mean_abs_shap": 0.029180536461524555
+    },
+    {
+      "feature": "lms_logins_past_month",
+      "mean_abs_shap": 0.024563147976770405
+    },
+    {
+      "feature": "video_completion_rate",
+      "mean_abs_shap": 0.017365123367610563
+    },
+    {
+      "feature": "GPA",
+      "mean_abs_shap": 0.013341399950729207
+    },
+    {
+      "feature": "prior_gpa",
+      "mean_abs_shap": 0.00373701467527431
+    },
+    {
+      "feature": "average_weekly_study_hours",
+      "mean_abs_shap": 0.0027852395158190733
+    },
+    {
+      "feature": "avg_course_grade",
+      "mean_abs_shap": 0.0017780226178737435
+    },
+    {
+      "feature": "major_Undeclared",
+      "mean_abs_shap": 0.0017260537891479993
+    },
+    {
+      "feature": "age",
+      "mean_abs_shap": 0.0016054251326789108
+    }
+  ],
+  "local_shap_top_positive": [
+    {
+      "feature": "attendance_rate",
+      "shap_value": 0.20973423533950802
+    },
+    {
+      "feature": "assignment_submission_rate",
+      "shap_value": 0.15235818377333274
+    },
+    {
+      "feature": "video_completion_rate",
+      "shap_value": 0.08594720655833021
+    },
+    {
+      "feature": "GPA",
+      "shap_value": 0.018034837315444287
+    },
+    {
+      "feature": "avg_course_grade",
+      "shap_value": 0.01392381918618002
+    },
+    {
+      "feature": "age",
+      "shap_value": 0.010213012144384718
+    },
+    {
+      "feature": "average_weekly_study_hours",
+      "shap_value": 0.008607533117278831
+    },
+    {
+      "feature": "forum_participation_count",
+      "shap_value": 0.005971946086538726
+    },
+    {
+      "feature": "prior_gpa",
+      "shap_value": 0.004083874871369588
+    },
+    {
+      "feature": "semester_2026_Spring",
+      "shap_value": 0.0038844434705897655
+    }
+  ],
+  "lime_top_positive": [
+    {
+      "feature_condition": "attendance_rate <= -0.53",
+      "lime_weight": 0.0930667560278167
+    },
+    {
+      "feature_condition": "assignment_submission_rate <= -0.61",
+      "lime_weight": 0.07280859801150022
+    },
+    {
+      "feature_condition": "GPA <= -0.65",
+      "lime_weight": 0.05306972101870546
+    },
+    {
+      "feature_condition": "video_completion_rate <= -0.70",
+      "lime_weight": 0.04753482843987608
+    },
+    {
+      "feature_condition": "average_weekly_study_hours <= -0.90",
+      "lime_weight": 0.01762754620098338
+    },
+    {
+      "feature_condition": "-0.85 < lms_logins_past_month <= -0.09",
+      "lime_weight": 0.011554476862724377
+    },
+    {
+      "feature_condition": "cohort_year > 0.45",
+      "lime_weight": 0.009951866669474972
+    },
+    {
+      "feature_condition": "semester_2025_Fall <= -0.50",
+      "lime_weight": 0.009713034038278973
+    },
+    {
+      "feature_condition": "age <= -0.69",
+      "lime_weight": 0.009709732556918692
+    },
+    {
+      "feature_condition": "avg_course_grade <= -0.58",
+      "lime_weight": 0.008554983374310163
+    }
+  ],
+  "gnn_top_non_demographic_features": [
+    {
+      "feature": "forum_participation_count",
+      "importance": 0.91095316,
+      "is_demographic": false
+    },
+    {
+      "feature": "prior_gpa",
+      "importance": 0.8602589,
+      "is_demographic": false
+    },
+    {
+      "feature": "avg_course_grade",
+      "importance": 0.8493212,
+      "is_demographic": false
+    },
+    {
+      "feature": "program_level_encoded_Postgraduate",
+      "importance": 0.844677,
+      "is_demographic": false
+    },
+    {
+      "feature": "semester_encoded_2025-Fall",
+      "importance": 0.8329827,
+      "is_demographic": false
+    },
+    {
+      "feature": "assignment_submission_rate",
+      "importance": 0.83080596,
+      "is_demographic": false
+    },
+    {
+      "feature": "major_encoded_Computer Science",
+      "importance": 0.82155144,
+      "is_demographic": false
+    },
+    {
+      "feature": "major_encoded_Business",
+      "importance": 0.81407136,
+      "is_demographic": false
+    },
+    {
+      "feature": "avg_session_duration_minutes",
+      "importance": 0.8135873,
+      "is_demographic": false
+    },
+    {
+      "feature": "assessment_count",
+      "importance": 0.8135526,
+      "is_demographic": false
+    }
+  ],
+  "gnn_top_edges": [
+    {
+      "source_local": 5382,
+      "target_local": 8599,
+      "importance": 0.8649933,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056564-FinalExam"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8591,
+      "importance": 0.86434937,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056562-FinalExam"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8594,
+      "importance": 0.86338526,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056563-Midterm"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8589,
+      "importance": 0.86335516,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056562-Assignment"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8597,
+      "importance": 0.8628636,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056564-Assignment"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8595,
+      "importance": 0.8628495,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056563-FinalExam"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8593,
+      "importance": 0.86257565,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056563-Assignment"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8592,
+      "importance": 0.86246055,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056563-Quiz"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8598,
+      "importance": 0.8624202,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056564-Midterm"
+    },
+    {
+      "source_local": 5382,
+      "target_local": 8601,
+      "importance": 0.86234903,
+      "source_node": "STU012586",
+      "target_node": "ASM-ENR0056565-Assignment"
+    }
+  ]
+}

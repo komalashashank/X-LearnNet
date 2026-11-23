@@ -1,22 +1,30 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .venv/
 venv/
 xlearnnet-venv/
 
-# Data files
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Original and intermediate datasets
 data/raw/
 data/processed/
 data/output/
-*.csv
 *.parquet
 
-# Model files
-models/
+# Exclude root-level source CSV datasets
+/*.csv
+
+# Exclude generated model artifacts
 *.pkl
 *.joblib
+*.pt
+*.pth
+*.onnx
 
 # Temporary files
 *.log
@@ -25,3 +33,7 @@ models/
 
 # IDE
 .vscode/
+
+# Preserve selected project outputs
+!powerbi_data/*.csv
+!outputs/**/*.csv

@@ -1,0 +1,27 @@
+Student ID: STU012586
+Actual outcome: 0
+GraphSAGE failure probability: 0.889201
+
+Top 10 feature explanations:
+forum_participation_count: 0.790053
+avg_course_grade: 0.748438
+age: 0.737974
+cohort_year: 0.732301
+prior_gpa: 0.729468
+gender_encoded_Other: 0.723491
+major_encoded_Computer Science: 0.723316
+semester_encoded_2025-Fall: 0.721853
+program_level_encoded_Undergraduate: 0.720470
+assignment_submission_rate: 0.719377
+
+Top 10 graph connections:
+ASM-ENR0056563-FinalExam -> STU012586 (ATTEMPTED): 0.713825
+ASM-ENR0056564-Midterm -> STU012586 (ATTEMPTED): 0.713816
+ASM-ENR0056565-Quiz -> STU012586 (ATTEMPTED): 0.713310
+ASM-ENR0056563-Assignment -> STU012586 (ATTEMPTED): 0.713264
+ASM-ENR0056562-FinalExam -> STU012586 (ATTEMPTED): 0.713251
+ASM-ENR0056563-Midterm -> STU012586 (ATTEMPTED): 0.713236
+ASM-ENR0056562-Quiz -> STU012586 (ATTEMPTED): 0.712988
+ASM-ENR0056564-FinalExam -> STU012586 (ATTEMPTED): 0.712960
+ASM-ENR0056563-Quiz -> STU012586 (ATTEMPTED): 0.712941
+ASM-ENR0056565-Midterm -> STU012586 (ATTEMPTED): 0.712935

@@ -1,0 +1,16 @@
+feature_condition,lime_weight,impact_direction
+attendance_rate <= -0.53,0.0930667560278167,Pushes toward failure
+major_Undeclared <= -0.06,-0.07992184592578074,Pushes away from failure
+gender_Not_reported <= -0.06,-0.07496632812750276,Pushes away from failure
+assignment_submission_rate <= -0.61,0.07280859801150022,Pushes toward failure
+GPA <= -0.65,0.05306972101870546,Pushes toward failure
+video_completion_rate <= -0.70,0.04753482843987608,Pushes toward failure
+average_weekly_study_hours <= -0.90,0.01762754620098338,Pushes toward failure
+-0.85 < lms_logins_past_month <= -0.09,0.011554476862724377,Pushes toward failure
+cohort_year > 0.45,0.009951866669474972,Pushes toward failure
+semester_2025_Fall <= -0.50,0.009713034038278973,Pushes toward failure
+age <= -0.69,0.009709732556918692,Pushes toward failure
+avg_course_grade <= -0.58,0.008554983374310163,Pushes toward failure
+prior_gpa <= -0.59,0.006995060672274648,Pushes toward failure
+-0.64 < total_lms_events <= 0.31,0.0061775450111164676,Pushes toward failure
+attendance_percentage <= -0.52,-0.006011516875969126,Pushes away from failure
