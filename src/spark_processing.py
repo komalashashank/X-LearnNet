@@ -12,7 +12,7 @@ print("Spark Version:", spark.version)
 
 # Load student dataset
 students = spark.read.csv(
-    "data/processed/students_master.csv",
+    "hdfs://localhost:9000/xlearnnet/raw/students_master.csv",
     header=True,
     inferSchema=True
 )

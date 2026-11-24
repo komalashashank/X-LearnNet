@@ -17,19 +17,19 @@ print("=" * 50)
 
 # Load datasets
 students = spark.read.csv(
-    "data/processed/students_master.csv",
+    "hdfs://localhost:9000/xlearnnet/raw/students_master.csv",
     header=True,
     inferSchema=True
 )
 
 assessments = spark.read.csv(
-    "data/processed/assessment_results.csv",
+    "hdfs://localhost:9000/xlearnnet/raw/assessment_results.csv",
     header=True,
     inferSchema=True
 )
 
 attendance = spark.read.csv(
-    "data/processed/attendance_records.csv",
+    "hdfs://localhost:9000/xlearnnet/raw/attendance_records.csv",
     header=True,
     inferSchema=True
 )
