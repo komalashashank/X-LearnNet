@@ -1,0 +1,15 @@
+file,rows,columns
+assessment_results.csv,359780,9
+attendance_records.csv,1079340,7
+course_catalog.csv,32,5
+course_enrollments.csv,89945,7
+dataset_inventory.csv,12,3
+faculty.csv,80,4
+intervention_outcomes.csv,4971,9
+knowledge_graph_edges.csv,630189,3
+knowledge_graph_nodes.csv,379992,2
+learning_resource_catalog.csv,100,6
+lms_activity_events.csv,200499,9
+student_outcomes_targets.csv,20000,6
+students_master.csv,20000,21
+weekly_learning_sequences.csv,240000,8

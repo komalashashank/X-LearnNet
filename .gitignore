@@ -11,9 +11,6 @@ xlearnnet-venv/
 !.env.example
 
 # Original and intermediate datasets
-data/raw/
-data/processed/
-data/output/
 *.parquet
 
 # Exclude root-level source CSV datasets

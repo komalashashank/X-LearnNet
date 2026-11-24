@@ -1,0 +1,101 @@
+resource_id,resource_title,resource_type,course_id,difficulty_level,source_status
+RES0001,Learning Resource 001,Lecture Notes,CRS-COM-05,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0002,Learning Resource 002,Video,CRS-ENG-03,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0003,Learning Resource 003,Video,CRS-COM-01,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0004,Learning Resource 004,Reading,CRS-BUS-03,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0005,Learning Resource 005,Lecture Notes,CRS-BUS-06,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0006,Learning Resource 006,Video,CRS-BUS-03,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0007,Learning Resource 007,Lecture Notes,CRS-COM-06,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0008,Learning Resource 008,Lecture Notes,CRS-ENG-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0009,Learning Resource 009,Lecture Notes,CRS-ART-07,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0010,Learning Resource 010,Reading,CRS-ART-06,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0011,Learning Resource 011,Worked Example,CRS-ART-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0012,Learning Resource 012,Video,CRS-BUS-06,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0013,Learning Resource 013,Video,CRS-COM-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0014,Learning Resource 014,Video,CRS-BUS-03,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0015,Learning Resource 015,Video,CRS-ART-01,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0016,Learning Resource 016,Worked Example,CRS-ENG-07,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0017,Learning Resource 017,Reading,CRS-ENG-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0018,Learning Resource 018,Worked Example,CRS-ART-04,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0019,Learning Resource 019,Worked Example,CRS-ART-05,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0020,Learning Resource 020,Worked Example,CRS-ART-06,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0021,Learning Resource 021,Worked Example,CRS-BUS-01,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0022,Learning Resource 022,Reading,CRS-ART-05,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0023,Learning Resource 023,Video,CRS-ART-07,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0024,Learning Resource 024,Worked Example,CRS-ENG-01,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0025,Learning Resource 025,Video,CRS-ENG-08,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0026,Learning Resource 026,Lecture Notes,CRS-ART-02,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0027,Learning Resource 027,Practice Quiz,CRS-BUS-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0028,Learning Resource 028,Reading,CRS-ART-06,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0029,Learning Resource 029,Lecture Notes,CRS-COM-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0030,Learning Resource 030,Practice Quiz,CRS-ENG-06,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0031,Learning Resource 031,Reading,CRS-ENG-01,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0032,Learning Resource 032,Practice Quiz,CRS-COM-01,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0033,Learning Resource 033,Worked Example,CRS-ENG-01,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0034,Learning Resource 034,Practice Quiz,CRS-BUS-08,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0035,Learning Resource 035,Reading,CRS-COM-06,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0036,Learning Resource 036,Practice Quiz,CRS-ART-08,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0037,Learning Resource 037,Reading,CRS-ENG-08,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0038,Learning Resource 038,Lecture Notes,CRS-ENG-07,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0039,Learning Resource 039,Reading,CRS-ART-06,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0040,Learning Resource 040,Video,CRS-COM-03,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0041,Learning Resource 041,Worked Example,CRS-COM-04,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0042,Learning Resource 042,Reading,CRS-ART-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0043,Learning Resource 043,Practice Quiz,CRS-BUS-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0044,Learning Resource 044,Video,CRS-ART-05,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0045,Learning Resource 045,Video,CRS-BUS-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0046,Learning Resource 046,Worked Example,CRS-COM-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0047,Learning Resource 047,Lecture Notes,CRS-ENG-08,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0048,Learning Resource 048,Video,CRS-ENG-05,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0049,Learning Resource 049,Practice Quiz,CRS-COM-08,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0050,Learning Resource 050,Video,CRS-ENG-08,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0051,Learning Resource 051,Reading,CRS-COM-07,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0052,Learning Resource 052,Practice Quiz,CRS-COM-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0053,Learning Resource 053,Reading,CRS-ENG-04,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0054,Learning Resource 054,Lecture Notes,CRS-ENG-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0055,Learning Resource 055,Video,CRS-COM-03,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0056,Learning Resource 056,Lecture Notes,CRS-ART-06,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0057,Learning Resource 057,Lecture Notes,CRS-ART-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0058,Learning Resource 058,Worked Example,CRS-COM-08,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0059,Learning Resource 059,Worked Example,CRS-ENG-08,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0060,Learning Resource 060,Practice Quiz,CRS-COM-01,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0061,Learning Resource 061,Reading,CRS-ART-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0062,Learning Resource 062,Video,CRS-ENG-07,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0063,Learning Resource 063,Worked Example,CRS-COM-06,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0064,Learning Resource 064,Lecture Notes,CRS-ENG-08,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0065,Learning Resource 065,Worked Example,CRS-BUS-07,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0066,Learning Resource 066,Reading,CRS-ENG-03,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0067,Learning Resource 067,Video,CRS-BUS-01,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0068,Learning Resource 068,Video,CRS-ENG-05,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0069,Learning Resource 069,Reading,CRS-ART-01,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0070,Learning Resource 070,Practice Quiz,CRS-COM-01,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0071,Learning Resource 071,Worked Example,CRS-ART-06,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0072,Learning Resource 072,Lecture Notes,CRS-ART-05,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0073,Learning Resource 073,Lecture Notes,CRS-ENG-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0074,Learning Resource 074,Lecture Notes,CRS-COM-01,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0075,Learning Resource 075,Video,CRS-COM-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0076,Learning Resource 076,Practice Quiz,CRS-COM-07,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0077,Learning Resource 077,Lecture Notes,CRS-BUS-01,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0078,Learning Resource 078,Reading,CRS-ENG-07,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0079,Learning Resource 079,Lecture Notes,CRS-BUS-08,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0080,Learning Resource 080,Lecture Notes,CRS-BUS-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0081,Learning Resource 081,Practice Quiz,CRS-ENG-03,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0082,Learning Resource 082,Video,CRS-ENG-01,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0083,Learning Resource 083,Practice Quiz,CRS-COM-06,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0084,Learning Resource 084,Worked Example,CRS-COM-08,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0085,Learning Resource 085,Video,CRS-ART-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0086,Learning Resource 086,Lecture Notes,CRS-ART-06,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0087,Learning Resource 087,Worked Example,CRS-ART-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0088,Learning Resource 088,Video,CRS-ENG-02,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0089,Learning Resource 089,Video,CRS-BUS-01,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0090,Learning Resource 090,Practice Quiz,CRS-ART-05,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0091,Learning Resource 091,Practice Quiz,CRS-BUS-08,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0092,Learning Resource 092,Practice Quiz,CRS-ENG-07,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0093,Learning Resource 093,Worked Example,CRS-BUS-02,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0094,Learning Resource 094,Practice Quiz,CRS-ENG-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0095,Learning Resource 095,Lecture Notes,CRS-ART-05,Beginner,Synthetic metadata; replace/link to approved institutional content
+RES0096,Learning Resource 096,Video,CRS-ENG-02,Advanced,Synthetic metadata; replace/link to approved institutional content
+RES0097,Learning Resource 097,Practice Quiz,CRS-ART-04,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0098,Learning Resource 098,Video,CRS-COM-05,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0099,Learning Resource 099,Practice Quiz,CRS-COM-07,Intermediate,Synthetic metadata; replace/link to approved institutional content
+RES0100,Learning Resource 100,Video,CRS-COM-08,Advanced,Synthetic metadata; replace/link to approved institutional content

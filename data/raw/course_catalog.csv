@@ -1,0 +1,33 @@
+course_id,course_name,department,credit_hours,difficulty_level
+CRS-ART-01,Arts Course 01,Arts,3,Beginner
+CRS-ART-02,Arts Course 02,Arts,3,Advanced
+CRS-ART-03,Arts Course 03,Arts,3,Advanced
+CRS-ART-04,Arts Course 04,Arts,3,Advanced
+CRS-ART-05,Arts Course 05,Arts,3,Beginner
+CRS-ART-06,Arts Course 06,Arts,3,Beginner
+CRS-ART-07,Arts Course 07,Arts,4,Advanced
+CRS-ART-08,Arts Course 08,Arts,3,Beginner
+CRS-COM-01,Computer Science Course 01,Computer Science,4,Beginner
+CRS-COM-02,Computer Science Course 02,Computer Science,3,Beginner
+CRS-COM-03,Computer Science Course 03,Computer Science,4,Advanced
+CRS-COM-04,Computer Science Course 04,Computer Science,4,Advanced
+CRS-COM-05,Computer Science Course 05,Computer Science,3,Beginner
+CRS-COM-06,Computer Science Course 06,Computer Science,3,Beginner
+CRS-COM-07,Computer Science Course 07,Computer Science,3,Beginner
+CRS-COM-08,Computer Science Course 08,Computer Science,4,Intermediate
+CRS-ENG-01,Engineering Course 01,Engineering,4,Beginner
+CRS-ENG-02,Engineering Course 02,Engineering,4,Beginner
+CRS-ENG-03,Engineering Course 03,Engineering,4,Advanced
+CRS-ENG-04,Engineering Course 04,Engineering,4,Intermediate
+CRS-ENG-05,Engineering Course 05,Engineering,3,Advanced
+CRS-ENG-06,Engineering Course 06,Engineering,3,Intermediate
+CRS-ENG-07,Engineering Course 07,Engineering,3,Advanced
+CRS-ENG-08,Engineering Course 08,Engineering,4,Beginner
+CRS-BUS-01,Business Course 01,Business,4,Beginner
+CRS-BUS-02,Business Course 02,Business,3,Advanced
+CRS-BUS-03,Business Course 03,Business,4,Beginner
+CRS-BUS-04,Business Course 04,Business,4,Advanced
+CRS-BUS-05,Business Course 05,Business,3,Intermediate
+CRS-BUS-06,Business Course 06,Business,4,Beginner
+CRS-BUS-07,Business Course 07,Business,4,Intermediate
+CRS-BUS-08,Business Course 08,Business,3,Intermediate
